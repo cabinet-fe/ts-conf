@@ -1,11 +1,12 @@
 {
-  "name": "ts-conf",
+  "name": "ts-conf-base",
   "version": "1.0.0",
   "description": "ts基础配置文件",
   "main": "tsconfig.json",
   "keywords": [
     "ts-config",
-    "ts-config-helper"
+    "ts-config-helper",
+    "ts-conf-base"
   ],
   "repository": {
     "type": "git",
