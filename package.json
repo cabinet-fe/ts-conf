@@ -1,6 +1,6 @@
 {
   "name": "ts-conf-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ts基础配置文件",
   "main": "tsconfig.json",
   "keywords": [
@@ -14,11 +14,7 @@
   },
   "author": "whj",
   "license": "MIT",
-  "devDependencies": {
-    "vue": "^3.2.47",
-    "@types/node": "^18.11.18",
-    "vite": "^4.0.4"
-  },
+  "devDependencies": {},
   "files": [
     "tsconfig.json",
     "tsconfig.web.json",
@@ -27,8 +23,6 @@
     "package.json"
   ],
   "peerDependencies": {
-    "@types/node": "*",
-    "vite": "*",
-    "vue": "*"
+    "@types/node": "*"
   }
 }

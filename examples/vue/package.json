@@ -1,4 +1,7 @@
 {
   "name": "@examples/vue",
-  "module": "index.ts"
+  "module": "index.ts",
+  "devDependencies": {
+    "vue": "^3.2.47"
+  }
 }

@@ -1,4 +1,8 @@
 {
   "name": "@examples/node",
-  "module": "index.ts"
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "vite": "^4.0.4"
+  }
 }

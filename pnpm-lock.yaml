@@ -3,14 +3,24 @@ lockfileVersion: 5.4
 importers:
 
   .:
+    specifiers: {}
+
+  examples/node:
     specifiers:
       '@types/node': ^18.11.18
       vite: ^4.0.4
-      vue: ^3.2.47
     devDependencies:
       '@types/node': 18.11.18
       vite: 4.0.4_@types+node@18.11.18
+
+  examples/vue:
+    specifiers:
+      vue: ^3.2.47
+    devDependencies:
       vue: 3.2.47
+
+  examples/web:
+    specifiers: {}
 
 packages:
 
