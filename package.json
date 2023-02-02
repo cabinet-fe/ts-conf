@@ -1,0 +1,33 @@
+{
+  "name": "ts-conf",
+  "version": "1.0.0",
+  "description": "ts基础配置文件",
+  "main": "tsconfig.json",
+  "keywords": [
+    "ts-config",
+    "ts-config-helper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabinet-fe/ts-conf.git"
+  },
+  "author": "whj",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^3.2.47",
+    "@types/node": "^18.11.18",
+    "vite": "^4.0.4"
+  },
+  "files": [
+    "tsconfig.json",
+    "tsconfig.web.json",
+    "tsconfig.node.json",
+    "tsconfig.vue.json",
+    "package.json"
+  ],
+  "peerDependencies": {
+    "@types/node": "*",
+    "vite": "*",
+    "vue": "*"
+  }
+}

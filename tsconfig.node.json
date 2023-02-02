@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    // 覆盖默认Lib, node使用场景下无需dom类型
+    "lib": [],
+    "types": ["node"]
+  }
+}

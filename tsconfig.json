@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    // 构建目标, 如果是vite那么目标不会使用此处的目标
+    // "target": "ESNext",
+    // 指定输出文件的模块标准, 常用的就是UMD, CommonJs, ESModule
+    "module": "ESNext",
+    // 是否允许导入js文件
+    "allowJs": false,
+    // 是否允许合并成默认导入, 例如:
+    // import * as Space from 'xx' -> import Space from 'xx'
+    "allowSyntheticDefaultImports": true,
+    // 严格模式之bind调用, call调用. apply调用
+    "strictBindCallApply": true,
+    // 严格的函数类型
+    // function fn(s: string) {}
+    // type Fun = (ns: string | number) => void
+    // let fuc: Fun = fn // 类型错误
+    "strictFunctionTypes": true,
+    // 严格的null检查
+    "strictNullChecks": true,
+    // 严格的类的属性初始化
+    "strictPropertyInitialization": true,
+    // try..catch中的catch返回值为unknown属性
+    "useUnknownInCatchVariables": true,
+    // 严格模式之不能有隐式的this, 即强制声明this
+    "noImplicitThis": true,
+    // 是否允许隐式的any
+    "noImplicitAny": false,
+    // 类中不允许隐式的重写, 需要override关键字
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    // 不能有未使用的局部变量
+    "noUnusedLocals": true,
+    // 不能有未使用的参数
+    "noUnusedParameters": true,
+    // 不能有永远不会执行的代码
+    "allowUnreachableCode": false,
+    // 不用做值的导入的行为, remove默认, preserve保留但可能引入副作用, error报错提醒, ts5.x时废弃
+    "importsNotUsedAsValues": "error",
+    // 保留值的导入, 可以通过type标记为类型
+    // import type {} from 'xx' / import { type Xx } from 'xx'
+    "preserveValueImports": true,
+    // 模块解析方式
+    "moduleResolution": "node",
+    // 解析json模块
+    "resolveJsonModule": true,
+    // 隔离模块, 将每个文件视作模块, 并且可以保持编译时的模块结构, 而不是编译到一个文件中去
+    "isolatedModules": true,
+    // es模块和其他模块的互操作
+    // 默认情况下, import X from 'xx'转cjs会转化为const X = required('xx').default
+    // 但是依赖的模块没有默认导出的话就会导入一个undefined, 除非cjs模块中有默认导出即: exports.default = {}
+    "esModuleInterop": true,
+    // 强制导入的模块名称大小写和文件名称大小写一致
+    // 有一个文件A.js
+    // 不开启时: import a from './a.js' 合法
+    // 开启时: import a from './a.js' 不合法
+    "forceConsistentCasingInFileNames": true,
+    // 跳过库的类型检查, 跳过对声明文件的检查
+    "skipLibCheck": true
+  }
+}

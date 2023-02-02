@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // vite项目的输出目标由vite.config.ts的build.target属性控制
+    // 查看: https://cn.vitejs.dev/config/build-options.html#build-target
+    "target": "ESNext",
+    "types": ["vite/client", "node"]
+  }
+}
