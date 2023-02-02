@@ -1,6 +1,6 @@
 {
   "name": "ts-conf-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ts基础配置文件",
   "main": "tsconfig.json",
   "keywords": [

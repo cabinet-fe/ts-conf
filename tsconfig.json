@@ -32,7 +32,7 @@
     // 不能有未使用的局部变量
     "noUnusedLocals": true,
     // 不能有未使用的参数
-    "noUnusedParameters": true,
+    "noUnusedParameters": false,
     // 不能有永远不会执行的代码
     "allowUnreachableCode": false,
     // 不用做值的导入的行为, remove默认, preserve保留但可能引入副作用, error报错提醒, ts5.x时废弃
