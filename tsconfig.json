@@ -37,9 +37,9 @@
     "allowUnreachableCode": false,
     // 不用做值的导入的行为, remove默认, preserve保留但可能引入副作用, error报错提醒, ts5.x时废弃
     "importsNotUsedAsValues": "error",
-    // 保留值的导入, 可以通过type标记为类型
+    // 导入的内容如果既是类型也是值(比如class)保留值的导入, 如果为true, 可以通过type关键字强制标记为类型从而不保留
     // import type {} from 'xx' / import { type Xx } from 'xx'
-    "preserveValueImports": true,
+    "preserveValueImports": false,
     // 模块解析方式
     "moduleResolution": "node",
     // 解析json模块
