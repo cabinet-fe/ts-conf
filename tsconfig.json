@@ -43,7 +43,7 @@
     // 模块解析方式
     "moduleResolution": "bundler",
     // 解析json模块
-    "resolveJsonModule": true,
+    // "resolveJsonModule": true,
     // 隔离模块, 将每个文件视作模块, 并且可以保持编译时的模块结构, 而不是编译到一个文件中去
     "isolatedModules": true,
     // es模块和其他模块的互操作
