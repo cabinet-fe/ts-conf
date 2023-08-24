@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    // 构建目标, 如果是vite那么目标不会使用此处的目标
-    // "target": "ESNext",
+    // 构建目标, 如果是vite那么目标不会使用此处的target属性
+    "target": "ESNext",
     // 指定输出文件的模块标准, 常用的就是UMD, CommonJs, ESModule
     "module": "ESNext",
     // 是否允许导入js文件
