@@ -20,6 +20,7 @@
     "strictNullChecks": true,
     // 严格的类的属性初始化
     "strictPropertyInitialization": true,
+    "verbatimModuleSyntax": true,
     // try..catch中的catch返回值为unknown属性
     "useUnknownInCatchVariables": true,
     // 严格模式之不能有隐式的this, 即强制声明this
@@ -35,11 +36,6 @@
     "noUnusedParameters": false,
     // 不能有永远不会执行的代码
     "allowUnreachableCode": false,
-    // 不用做值的导入的行为, remove默认, preserve保留但可能引入副作用, error报错提醒, ts5.x时废弃
-    // "importsNotUsedAsValues": "error",
-    // 导入的内容如果既是类型也是值(比如class)保留值的导入, 如果为true, 可以通过type关键字强制标记为类型从而不保留
-    // import type {} from 'xx' / import { type Xx } from 'xx'
-    // "preserveValueImports": false,
     // 模块解析方式
     "moduleResolution": "bundler",
     // 解析json模块
