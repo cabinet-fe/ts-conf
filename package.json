@@ -1,6 +1,6 @@
 {
   "name": "ts-conf-base",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "ts基础配置文件",
   "main": "tsconfig.json",
   "keywords": [
@@ -15,7 +15,7 @@
   "author": "whj",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.5.0"
   },
   "files": [
     "tsconfig.json",
