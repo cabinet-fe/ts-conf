@@ -5,6 +5,7 @@
     // 查看: https://cn.vitejs.dev/config/build-options.html#build-target
     "target": "ESNext",
     "jsx": "preserve",
+    "jsxImportSource": "vue",
     "types": []
   }
 }
