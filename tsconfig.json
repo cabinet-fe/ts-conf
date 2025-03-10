@@ -40,8 +40,6 @@
     "moduleResolution": "bundler",
     // 解析json模块
     // "resolveJsonModule": true,
-    // 隔离模块, 将每个文件视作模块, 并且可以保持编译时的模块结构, 而不是编译到一个文件中去
-    "isolatedModules": true,
     // es模块和其他模块的互操作
     // 默认情况下, import X from 'xx'转cjs会转化为const X = required('xx').default
     // 但是依赖的模块没有默认导出的话就会导入一个undefined, 除非cjs模块中有默认导出即: exports.default = {}
