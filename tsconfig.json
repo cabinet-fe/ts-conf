@@ -16,10 +16,7 @@
     // type Fun = (ns: string | number) => void
     // let fuc: Fun = fn // 类型错误
     "strictFunctionTypes": true,
-    // 严格的null检查
-    "strictNullChecks": true,
-    // 严格的类的属性初始化
-    "strictPropertyInitialization": true,
+
     "verbatimModuleSyntax": true,
     // try..catch中的catch返回值为unknown属性
     "useUnknownInCatchVariables": true,
