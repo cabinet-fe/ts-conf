@@ -17,6 +17,8 @@
     // let fuc: Fun = fn // 类型错误
     "strictFunctionTypes": true,
 
+    "strictNullChecks": true,
+
     "verbatimModuleSyntax": true,
     // try..catch中的catch返回值为unknown属性
     "useUnknownInCatchVariables": true,
